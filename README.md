@@ -8,7 +8,7 @@ This project is based on the Meiosis concept [explained here](https://medium.com
 
 The essential aspect is the use of _streams_ to notify listeners of the updates.
 
-Please check our [Medium Artice](https://medium.com/@dorival.pedroso/simple-reactive-state-management-in-react-hooks-65c23062c5f) for further information.
+Please check our [Medium Artice](https://medium.com/@dorival.pedroso/simple-reactive-state-management-in-vue-c1e7c3ae9d1b?sk=6ac3b633e41a1c43a64213b6baa6ac2b) for further information.
 
 The GIF below shows the changes being updated on [Meiosis Tracer](https://github.com/foxdonut/meiosis-tracer) tool.
 
