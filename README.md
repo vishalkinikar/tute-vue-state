@@ -1,34 +1,15 @@
-# tute-vue-state
+# Vue + Typescript + Reactive Store
 
-## Project setup
-```
-yarn install
-```
+This project presents an alternative way to implement a reactive store (state management) without third-party libraries when using [Vue](https://vuejs.org/).
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+The approach benefits from the fully-typed checks using Typescript.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+This project is based on the Meiosis concept [explained here](https://medium.com/@foxdonut00/you-dont-need-redux-mobx-rxjs-cerebral-6a735b150a02) [and here](http://meiosis.js.org/).
 
-### Run your tests
-```
-yarn run test
-```
+The essential aspect is the use of _streams_ to notify listeners of the updates.
 
-### Lints and fixes files
-```
-yarn run lint
-```
+Please check our [Medium Artice](https://medium.com/@dorival.pedroso/simple-reactive-state-management-in-react-hooks-65c23062c5f) for further information.
 
-### Run your unit tests
-```
-yarn run test:unit
-```
+The GIF below shows the changes being updated on [Meiosis Tracer](https://github.com/foxdonut/meiosis-tracer) tool.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](Vue-App.gif)
