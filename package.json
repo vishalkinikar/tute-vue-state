@@ -9,6 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "flyd": "^0.2.8",
     "vue": "^2.6.6"
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
     "@vue/test-utils": "^1.0.0-beta.20",
     "babel-core": "7.0.0-bridge.0",
     "fibers": "^3.1.1",
+    "meiosis-tracer": "^2.0.3",
     "sass": "^1.16.0",
     "sass-loader": "^7.1.0",
     "ts-jest": "^23.0.0",
