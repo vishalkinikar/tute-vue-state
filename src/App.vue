@@ -1,9 +1,13 @@
 <template>
   <div>
     <div id="app">
-      <h3>Vue version</h3>
-      <Conditions/>
-      <Temperature/>
+      <div class="root">
+        <h3>
+          <img alt="Vue logo" height="40" src="./assets/logo.png"> Using Vue
+        </h3>
+        <Conditions/>
+        <Temperature/>
+      </div>
     </div>
     <div id="tracer"></div>
   </div>
@@ -36,7 +40,6 @@ export default Vue.extend({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,6 +53,18 @@ export default Vue.extend({
   position: fixed;
   top: 0;
   right: 0;
+}
+
+#app h3 {
+  display: flex;
+  align-items: center;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .component {

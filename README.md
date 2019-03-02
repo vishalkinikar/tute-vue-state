@@ -12,4 +12,4 @@ Please check our [Medium Artice](https://medium.com/@dorival.pedroso/simple-reac
 
 The GIF below shows the changes being updated on [Meiosis Tracer](https://github.com/foxdonut/meiosis-tracer) tool.
 
-![](Vue-App.gif)
+![](tute-vue-state.gif)
